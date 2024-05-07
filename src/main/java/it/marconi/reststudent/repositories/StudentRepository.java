@@ -1,0 +1,11 @@
+package it.marconi.reststudent.repositories;
+
+import java.util.UUID;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import it.marconi.reststudent.domains.Student;
+
+public interface StudentRepository extends JpaRepository<Student, UUID> {
+    
+}
